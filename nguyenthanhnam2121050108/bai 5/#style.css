@@ -1,0 +1,51 @@
+<header>
+            <nav class="danhmuc">
+                <ul class="danhmuc-danhsach">
+                    <li class="danhmuc-muc">
+                    <a href="#" class="danhmuc-lienket">Trang chủ</a>
+                    </li>
+                     <li class="danhmuc-muc">
+                    <a href="#" class="danhmuc-lienket">Thực tập, đồ án</a>
+                    </li>
+                     <li class="danhmuc-muc">
+                    <a href="#" class="danhmuc-lienket">Thủ tục một cửa</a>
+                    </li>
+                     <li class="danhmuc-muc">
+                    <a href="#" class="danhmuc-lienket">Một cửa online</a>
+                    </li>
+                </ul>
+            </nav>
+        <div class="logo">
+
+        </div>
+    </header>
+    <main>
+        <div class="noidung-trai">
+            <div class="tintuc">
+                <div class="tieude">
+                    Tin tức
+                </div>
+
+            </div>
+            <div class="tintuc-danhsach">
+                <div class="baiviet">
+                    <img src="../image1/anh.jpg" width:>
+                </div>
+                <div class="baiviet">
+                    
+                </div>
+                <div class="baiviet">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="noidung-phai">
+
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
