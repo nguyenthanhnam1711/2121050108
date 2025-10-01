@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>javascript</title>
+    <script src="script.js"></script>
+</head>    
+  <body>
+        <script>
+            let thongTinDonHang = {
+            maDonHang: "12345678",
+            thongTinKhachHang: {
+                hoTen: "NguyenThanh Nam",
+                soDienThoai: "0889901711",
+                trangThaiThanhVienThanThiet: false,
+            },
+            danhSachSanPham: {
+                sp01: {
+                    maSanPham: "1",
+                    tenSanPham: "Matcha",
+                    soLuong: 10,
+                    giaTien: "10000",
+                },
+                sp02: {
+                    maSanPham: "2",
+                    tenSanPham: "Cà phê",
+                    soLuong: 10,
+                    giaTien: "20000",
+                },
+                sp03: {
+                    maSanPham: "3",
+                    tenSanPham: "Trà sữa",
+                    soLuong: 15,
+                    giaTien: "20000",
+                }
+            },
+            thanhToanThanhCong: true,
+            diaChiGiaoHang: "Đông Ngạc"
+        }
+        let tongSP1 = thongTinDonHang.danhSachSanPham.sp01.giaTien * thongTinDonHang.danhSachSanPham.sp01.soLuong;
+        let tongSP2 = thongTinDonHang.danhSachSanPham.sp02.giaTien * thongTinDonHang.danhSachSanPham.sp02.soLuong;
+        let tongSP3 = thongTinDonHang.danhSachSanPham.sp03.giaTien * thongTinDonHang.danhSachSanPham.sp03.soLuong;
+
+        let tongTien = tongSP1 + tongSP2 + tongSP3;
+        var myString = "Hello Nam";
+        
+
+
+        document.writeln("Tong tien don hang = " + tongTien);
+        document.writeln( "độ dài của mã đơn hàng =" + thongTinDonHang.maDonHang.length);
+        document.writeln(myString[4]); // gọi giá trị tại 4
+        document.writeln(myString.slice(1,4)); // gọi giá trị từ 1<= <4
+        document.writeln(myString.replace("Hello","Hi"));// thay thế
+        document.writeln(myString.toLocaleUpperCase());// so sánh giá trị
+        document.writeln(myString.includes('e')); // kiểm tra trong hàm có giá trị 'e'không
+        document.writeln(myString.split(' ')) // tách chuỗi thành mảng
+        let so = "123";
+        document.writeln(typeof (so));
+        document.writeln(typeof (Number(so)));
+        
+
+        </script>
+    </body>
+</html>
